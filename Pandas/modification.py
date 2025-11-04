@@ -1,5 +1,3 @@
-from operator import index
-
 import pandas as pd
 
 data = {
@@ -33,5 +31,3 @@ print(df)
 # Removing columns/rows
 df.drop(columns="performance_score", inplace=True)
 print(df)
-
-
