@@ -54,3 +54,16 @@
 
 </li>
 </ul>
+
+
+## Jupyter Notebook
+Use below steps run Jupyter Notebook using miniconda instead of full anaconda distribution
+
+* Install Miniconda
+* Run below commands
+  ```bash
+  conda create -n py39 python=3.9
+  conda activate py39
+  conda install jupyter
+  jupyter notebook
+  ```
