@@ -62,8 +62,16 @@ Use below steps run Jupyter Notebook using miniconda instead of full anaconda di
 * Install Miniconda
 * Run below commands
   ```bash
-  conda create -n py39 python=3.9
+  # One time
+  conda create -n py39 python=3.9 
   conda activate py39
+  # One time
   conda install jupyter
+  # One time
+  pip  install ipykernel
+  # One time
+  python -m ipykernel install --user --name py313  --display-name "Python (ds)"
+  # One time for each module
+  conda install <<modulename>>
   jupyter notebook
   ```
